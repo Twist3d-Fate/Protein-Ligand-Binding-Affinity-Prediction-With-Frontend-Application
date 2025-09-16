@@ -1,6 +1,10 @@
 Protein-Ligand Binding Affinity Predictor
 A comprehensive web application for predicting protein-ligand binding affinity using Graph Neural Networks (GNNs) and molecular descriptors.
 
+<p align="center">
+  <a href="#"><img src="https://github.com/Twist3d-Fate/Protein-Ligand-Binding-Affinity-Prediction-With-Frontend-Application/blob/main/SiteUI.png"></a>
+</p>
+
 🚀 Features
 
 - GNN-based Predictions: Uses PyTorch Geometric for molecular graph processing
