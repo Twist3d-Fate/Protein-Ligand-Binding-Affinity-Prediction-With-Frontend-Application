@@ -25,6 +25,59 @@ Frontend (React)
 - UI Library: shadcn/ui components with Tailwind CSS
 - 3D Viewer: NGL Viewer for protein structure visualization
 - State Management: React hooks for local state
+
+Directory Tree
+
+├── backend/
+
+│   ├── app.py                # Main Flask application with GNN model and API endpoints
+
+│   ├── requirements.txt      # Python dependencies for backend
+
+├── public/
+
+│   ├── favicon.svg           # Application favicon
+
+│   ├── images/               # Directory for images
+
+├── src/
+
+│   ├── components/           # React components for UI
+
+│   ├── pages/                # React pages
+
+│   └── main.tsx              # Entry point for React application
+
+├── index.html                # Main HTML file
+
+├── package.json              # Frontend dependencies
+
+└── README.md                 # Project documentation
+
+
+📁 File Descriptions
+
+- backend/app.py: Contains the Flask application, defines the GNN model, and sets up API endpoints for predictions and health checks.
+- backend/requirements.txt: Lists the required Python packages for the backend.
+- src/components/: Contains React components for the UI, including forms and result displays.
+- src/pages/: Contains the main application pages.
+- index.html: The main HTML file that serves the React application.
+- package.json: Lists the frontend dependencies.
+
+💻 Tech Stack
+
+Backend:
+
+- Flask
+- PyTorch Geometric
+- RDKit
+  
+Frontend:
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- Axios
   
 📦 Installation & Setup
 
