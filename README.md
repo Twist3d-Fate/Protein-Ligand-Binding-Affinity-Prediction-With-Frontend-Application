@@ -38,8 +38,6 @@ Directory Tree
 
 │   ├── favicon.svg           # Application favicon
 
-│   ├── images/               # Directory for images
-
 ├── src/
 
 │   ├── components/           # React components for UI
